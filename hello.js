@@ -12,12 +12,17 @@ console.log("jersey");
 // let for varaibles that changes  as application runs
 // const for varables that are constant/do not change as application is running
 
-let score = 20;
+let Score = 20; 
+
 score = 21;
 score = 25;
 
 const pi = 3.142;
 const interestRate = 14;
+// interestRate = 29 // TypeError: Assignment to constant variable
 // we can log varibales/access their values
-console.log(score)
+console.log(Score) 
 console.log(interestRate)
+
+// Eplain variable naming rules and conventions
+// list some data types in javascript
