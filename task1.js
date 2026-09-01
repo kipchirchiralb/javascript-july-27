@@ -8,6 +8,11 @@ const seedlingsFarm = {
     contact: "ken.towett@gmail.com",
     age: 35,
   },
+  services: [
+    "seedlings sales",
+    "nursery management",
+    "agricultural consultancy",
+  ],
   seedlings: [
     {
       type: "Mango",
@@ -42,6 +47,8 @@ const seedlingsFarm = {
   ],
 };
 
+console.log(seedlingsFarm.owner.contact);
+console.log(seedlingsFarm.services[2]);
 // Accessing nested data tasks - print the exact value of the following questions
 // how old is the owner of the farm?
 // how many seedling varieties are there in the farm?
