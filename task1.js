@@ -55,3 +55,5 @@ console.log(seedlingsFarm.services[2]);
 // how many seedlings are there in total? - all varieties
 // what is the total value of all seedlings in the farm?
 // is the farm registered?
+
+// dot notation or bracket notation or both
