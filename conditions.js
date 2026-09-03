@@ -30,4 +30,4 @@ if (mark > 80) {
 
 // TASK: write an conditional statement that checks if a number is positive, negative, or zero and prints the appropriate message. 3 conditions to check for: positive, negative, zero.
 
-// Task: What is a loop
+// Task: What is a loop/iteration in programming?
