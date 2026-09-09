@@ -1,0 +1,1 @@
+console.log( "albert".indexOf("y") )
