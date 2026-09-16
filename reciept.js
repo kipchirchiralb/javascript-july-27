@@ -6,7 +6,7 @@ const sampleData = [
 ];
 
 function reciept(items) {
-  items = items.sort((a, b) => a.price - b.price);
+  items = items.sort(function sortItems(a, b){return a.price - b.price});
   for (let index = 0; index < items.length; index++) {
     console.log(items[index].name + "      " + items[index].price.toFixed(2));
   }
@@ -14,7 +14,7 @@ function reciept(items) {
     "TOTAL           " + items.reduce((total, item) => total + item.price, 0),
   );
 }
-
+// arrow funtions and callbacks
 // reduce method in array - study
 
 reciept(sampleData);
